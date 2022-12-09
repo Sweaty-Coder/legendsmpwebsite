@@ -11,7 +11,7 @@
 </head>
 <body>
   <div class="wrapper">
-    <header>Legend SMP</header>
+    <header><strong>Legend SMP</strong></header>
     <input type="radio" name="slider" checked id="home">
     <input type="radio" name="slider" id="blog">
     <input type="radio" name="slider" id="code">
@@ -26,13 +26,23 @@
       <div class="slider"></div>
     </nav>
     <section>
+		<hr>
       <div class="content content-1">
         <div class="title">Legend SMP Home</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero aspernatur nobis provident dolores molestias quia quisquam laborum, inventore quis, distinctioa, fugit repudiandae delectus sunt ipsam! Odio illo at quia doloremque fugit iops, asperiores? Consectetur esse officia labore voluptatum blanditiis molestias dic voluptas est, minima unde sequi, praesentium dicta suscipit quisquam iure sed, nemo.</p>
+        <p>
+			Legend SMP Is A Minecraft Server. Theres Cool Mods Like, Quests, Shops Around Spawn, And Active Staff To Help Keep The Server Healthy. 
+			Shops Around Spawn And Active Event Hosts. If You Win An Event You Can Win Prizes Like (Diamonds, Custom Items, Etc). 
+			There Is Custom Items With Special Abilitys Come Check Us Out.
+			<div style="background-color: rgb(70, 70, 179);" id="button-wrapper" onclick="yourFunction()">
+				<center><h2>Discord</h2></center>
+			</div>
+		</p>
       </div>
       <div class="content content-2">
         <div class="title">Legend SMP News</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit amet. Possimus doloris nesciunt mollitia culpa sint itaque, vitae praesentium assumenda suscipit fugit doloremque adipisci doloribus, sequi facere itaque cumque accusamus, quam molestias sed provident quibusdam nam deleniti. Autem eaque aut impedit eo nobis quia, eos sequi tempore! Facere ex repellendus, laboriosam perferendise. Enim quis illo harum, exercitationem nam totam fugit omnis natus quam totam, repudiandae dolor laborum! Commodi?</p>
+        <p>
+			12/9/2022: Server Has Been Closed For Now Becuase Of Lag (Currupted Chunks)
+		</p>
       </div>
       <div class="content content-3">
         <div class="title">Legend SMP Server IP</div>
@@ -75,29 +85,19 @@
 			Another Mode Called KitPVP (Battle Agaisnt Others With Different Unique Kits)		</p>
       </div>
     </section>
-  </div>
-  <center><div class="wrapper2">
-	<input type="radio" name="select" id="option-1" onclick="yourFunction()" checked>
-	<input type="radio" name="select" id="option-2">
-	<label for="option-1" class="option option-1">
-	  <div class="dot"></div>
-	  <span>Home</span>
-	</label>
-	<label for="option-2" class="option option-2" onclick="myFunction()">
-	  <div class="dot"></div>
-	  <span>Discord</span>
-	</label>
-  </div></center>
-  <script>
-	function myFunction() {
-	  location.replace("https://legendsmpweb.tk/discord.html")
-	}
+	</div>
+	<div id="button-wrapper" onclick="myFunction()">
+		<center><h1>Play Now</h1></center>
+	</div>
+	<script>
+		function myFunction() {
+			window.open("https://resclient.vercel.app/")
+		}
 	</script>
-   <script>
-	 function yourFunction() {
-	   location.replace("https://legendsmpweb.tk/index.html")
-	 }
-	 </script>
-
+	<script>
+		function yourFunction() {
+		  window.open("https://discord.com/invite/WXzGYBsJkz")
+		}
+	</script>
 </body>
 </html>

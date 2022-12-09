@@ -12,7 +12,7 @@ body{
   width: 900px;
   margin: 40px auto;
   padding: 30px 30px 30px 30px;
-  height: 500px;
+  height: 450px;
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
@@ -28,7 +28,7 @@ body{
   height: 50px;
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 .wrapper nav label{
   display: block;
@@ -95,8 +95,33 @@ section .content{
 section .content .title{
   font-size: 21px;
   font-weight: 500;
-  margin: 30px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 section .content p{
 text-align: justify;
+}
+.button{
+    background-color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    border-style: groove;
+    color: black;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    display: inline-block;
+
+}
+#button-wrapper{
+    width: 300px;
+    margin: 40px auto;
+    padding: 0px;
+    height: auto;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+    border-color: black;
+    border: 3px;
+    border-style:groove;
+}
+.button:hover{
+    background: yellow;
 }
